@@ -1,0 +1,125 @@
+.container {
+    display: flex;
+}
+
+.container section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.container main {
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main div {
+    margin: 25% 40%;
+}
+
+main h1 {
+    color: var(--grey);
+    margin-top: 5%;
+}
+
+section h1 {
+    color: var(--white);
+    margin-top: 12%;
+}
+
+.section_btn {
+    align-items: center;
+    box-sizing: border-box;
+    color: var(--background_black);
+    cursor: pointer;
+    display: inline-flex;
+    background-color: var(--logo_green);
+    border-radius: 60px;
+    font-family: 'yekan-bakh';
+    font-size: 18px;
+    height: 4rem;
+    width: 35rem;
+    justify-content: center;
+    outline: 0;
+    border: none;
+    padding: 0;
+    margin: 3rem;
+    text-align: center;
+    transition: all .3s ease-in;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.section_btn:hover {
+    background-color: transparent;
+    color: var(--white);
+}
+
+.logout_btn {
+    align-items: center;
+    box-sizing: border-box;
+    color: var(--background_black);
+    cursor: pointer;
+    display: inline-flex;
+    background-color: var(--crimson);
+    border-radius: 60px;
+    font-family: 'yekan-bakh';
+    font-size: 18px;
+    height: 4rem;
+    width: 35rem;
+    justify-content: center;
+    outline: 0;
+    border: none;
+    padding: 0;
+    margin: 0.2rem;
+    text-align: center;
+    transition: all .3s ease-in;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.logout_btn:hover {
+    background-color: transparent;
+    color: var(--white);
+}
+
+@media (max-width: 767px) {
+
+    .container {
+        display: block;
+    }
+
+    .container section {
+        width: 100vw;
+    }
+    
+    .container main {
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    main h2 {
+        margin-top: 0;
+    }
+
+}
+
+@media (max-width: 412px) {
+
+    main h2 {
+        margin-top: 0;
+        text-align: center;
+        padding: 3rem;
+        font-size: large;
+    }
+
+}

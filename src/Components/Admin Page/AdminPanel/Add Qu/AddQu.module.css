@@ -1,0 +1,203 @@
+.container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: var(--white);
+}
+
+.container section {
+    width: 30vw;
+    height: 100vh;
+}
+
+.container main {
+    padding: 0;
+    width: 70vw;
+    height: 100vh;
+}
+
+.section_btn {
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    box-sizing: border-box;
+    color: var(--white);
+    cursor: pointer;
+    display: block;
+    fill: rgb(0, 0, 0);
+    font-family: 'Yekan';
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    height: 4rem;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    border-radius: 60px;
+}
+
+.section_btn:focus {
+  color: #171e29;
+}
+
+.section_btn:hover {
+  background-color: var(--logo_green);
+}
+
+.section_btn a {
+    text-decoration: none;
+    color: var(--white);
+    font-family: yekan-bakh;
+}
+
+main div {
+    margin: 25% 40%;
+}
+
+main p {
+    color: var(--grey);
+}
+
+main img {
+    width: 128px;
+}
+
+/* Form Style */
+form {
+    text-align: center;
+}
+.formInput {
+    width: 100%;
+    height: 6vh;
+    padding: 8px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: var(--white);
+    transition: all 0.3s ease-in;
+    transition: border-color 0.2s;
+    font-size: 20px;
+    direction: rtl;
+    transition: all 250ms ease-in-out;
+    margin-top: 5vh;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, var(--logo_green) 0 -3px 0 inset;
+}
+
+.submitButton {
+    align-items: center;
+    box-sizing: border-box;
+    color: var(--background_black);
+    cursor: pointer;
+    display: inline-flex;
+    background-color: var(--logo_green);
+    font-family: 'yekan-bakh';
+    justify-content: center;
+    min-width: 10rem;
+    outline: 0;
+    border: none;
+    text-align: center;
+    transition: all .3s ease-in;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-size: 20px;
+    width: 103%;
+    height: 3.8rem;
+    padding: 2%;
+    margin: 5% 0 0 0;
+    border-radius: 60px;
+}
+
+.submitButton:hover {
+    background-color: var(--background_black);
+    color: var(--logo_green);
+}
+
+.finishButton {
+    align-items: center;
+    box-sizing: border-box;
+    color: var(--logo_green);
+    cursor: pointer;
+    display: inline-flex;
+    background-color: var(--background_black);
+    font-family: 'yekan-bakh';
+    justify-content: center;
+    min-width: 10rem;
+    outline: 0;
+    border: none;
+    text-align: center;
+    transition: all .3s ease-in;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-size: 20px;
+    width: 103%;
+    height: 3.8rem;
+    padding: 2%;
+    margin: 5% 0 0 0;
+    border-radius: 60px;
+}
+
+.finishButton:hover {
+    background-color: var(--logo_green);
+    color: var(--background_black);
+}
+
+.formInput::placeholder {
+    margin: 0;
+    font-size: 16px;
+}
+
+.formInput:focus {
+    width: 100%;
+    transition: all 250ms ease-in-out;
+    transform: translateY(2px);
+    background-color: var(--logo_green);
+    box-shadow: none;
+    color: var(--background_black);
+}
+
+.formdiv {
+    direction: rtl;
+    width: 30vw;
+    height: 0;
+    transition: all 50ms ease-in;
+}
+
+.formdiv_Active {
+    direction: rtl;
+    width: 40vw;
+    height: auto;
+    transition: all 50ms ease-in;
+}
+
+.formdiv h6 {
+    direction: rtl;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border-radius: 2px;
+    width: 61%;
+    padding: 2%;
+}
+
+.formdiv_Active h6 {
+    direction: rtl;
+    color: rgb(255, 255, 255);
+    background-color: var(--grey);
+    border-radius: 2px;
+    width: 87%;
+    padding: 2%;
+}
+
+.showQu {
+    margin-top: 40%;
+    direction: rtl;
+}

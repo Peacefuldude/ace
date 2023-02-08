@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    overflow-y: hidden;
+    height: 100vh;
+    color: var(--white);
+}
+
+.Header {
+    width: 7%;
+    height: auto;
+}
+
+.AboutUs {
+    width: 93%;
+    height: auto;
+}
+
+@media (max-width: 1070px) {
+    .Header {
+        width: 10%;
+        height: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        overflow-y: scroll;
+    }
+}

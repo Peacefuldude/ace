@@ -1,0 +1,57 @@
+.container {
+    margin: 5%;
+    width: auto;
+    height: auto;
+    direction: rtl;
+    padding: 2%;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, var(--logo_green) 0 -5px 0 inset;
+    transition: all 200ms ease-in-out;
+    font-family: Yekan-bakh;
+    border-radius: 60px;
+}
+
+.container button {
+    border: none;
+    color: var(--white);
+    background-color: var(--AbiFiro);
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Yekan';
+    font-size: 16px;
+    width: 20%;
+    height: 3rem;
+    padding: 2%;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, var(--logo_green) 0 -3px 0 inset;
+    transition: all 250ms ease-in-out;
+    border-radius: 60px;
+
+}
+
+.container button:hover {
+    transition: all 250ms ease-in-out;
+    background-color: rgb(77, 77, 77);
+    box-shadow: none;
+}
+
+.container div {
+    margin: 0;
+    padding: 0;
+}
+
+.container p {
+    text-align: center;
+}
+
+.userdiv_btn a {
+    color: var(--white);
+    text-decoration: none;
+}
+@media (max-width: 412px) {
+
+    .container {
+        margin: 5%;
+        padding: 0;
+    }
+    
+}

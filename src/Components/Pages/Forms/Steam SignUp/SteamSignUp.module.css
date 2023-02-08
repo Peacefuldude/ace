@@ -1,0 +1,43 @@
+.SteamSignUp_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 10%;
+}
+
+.return_btn {
+    align-items: center;
+    box-sizing: border-box;
+    color: var(--background_black);
+    cursor: pointer;
+    display: inline-flex;
+    background-color: var(--logo_green);
+    border-radius: 60px;
+    font-family: 'yekan-bakh';
+    justify-content: center;
+    min-width: 22rem;
+    outline: 0;
+    border: none;
+    text-align: center;
+    transition: all .3s ease-in;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-size: 20px;
+    width: 40%;
+    height: 3.8rem;
+    padding: 2%;
+    margin: 5vh 1vw 0 0;
+}
+
+.return_btn:hover {
+    background-color: var(--background_black);
+    color: var(--white);
+}
+
+.return_btn a {
+    text-decoration: none;
+    color: var(--white);
+}
